@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="challengeAlura.css">
+    <link rel="stylesheet" href="reset.css">
+    <script src="challengeAlura.js"></script>
+    <title>Encriptar y desencriptar</title>
+</head>
+<body>
+    <header>
+        <div class="logo">   
+            <img src="img/Logo.jpg">
+            <div class="titulo">
+                <h1> Encriptador de mensajes</h1>
+            </div>
+        </div>
+        </header>
+    <div class="container">       
+        <div class="areatextoizquierdo">
+            <input class="texto1" id="inputTexto" type="text" placeholder="Ingrese el texto aquí"></>   
+            </div>
+        <div class="areatextoderecho">
+            <img id="lupa"  src="img/lupa1.jpg" width="90%"  height="auto"  class="lupa">
+           <div class="ninguno" >
+            <h2 id="ninguno">Ningún mensaje fue encontrado</h2>
+           </div>
+           <textarea id="texto2" name="areatextoD" rows="8" cols="80" class="texto2" placeholder="Ingrese el texto que desees encriptar o desencriptar"></textarea>
+           <div class="BotonCopy">
+            <button id="copiar" class="botonCopy" onclick="copy()" >Copiar texto</button>
+            </div>
+        </div>
+        <div class="area-botones-izq">
+            <div class="minuscula">
+            <h2><img class="admiracion"  src="img/admiracionblanco.jpg" width="30px" height="30px" >Sólo letra minúscula y sin acentos</h2>
+            </div>
+            <div class="dosColumnas">
+                <button type="button1"  class="boton1" onclick="encriptar()"><p>  Encriptar!  </p></button>
+                <button type="button2"  class="boton2" onclick="desencriptar()" > <b>Desencriptar!</b> </button>
+           </div>
+      </div>
+    </div>
+</body>
+      <div class="iconos" >
+        <span>© Copyright - 2022 - Marcela L.Maidana</span>
+        <span><a target="_self" class="boton"  href="https://github.com/Marcela-create"><img src="img/logo-GitHub.png"width="70" height="50" ></a></span>
+        <span><a target="_self" class="boton"  href="https://www.linkedin.com/in/marcela-liliana-maidana-83370b92/"><img src="img/Linkedin-PNG-Pic-Background.png"width="100" height="25"></a></span>
+       </div>
+
+
+</html>
